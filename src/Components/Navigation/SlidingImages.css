@@ -1,0 +1,27 @@
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation: fade-in 6000ms infinite; /* Safari 4+ */
+    -moz-animation:    fade-in 6000ms infinite; /* Fx 5+ */
+    -o-animation:      fade-in 6000ms infinite; /* Opera 12+ */
+    animation:         fade-in 6000ms infinite; /* IE 10+, Fx 29+ */
+  }
+@-webkit-keyframes fade-in {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-moz-keyframes fade-in {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @-o-keyframes fade-in {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes fade-in {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }

@@ -1,0 +1,7 @@
+a:hover,
+a:active,
+a.nav-link.active{
+    color:gold;
+    background-color: black;
+
+}
