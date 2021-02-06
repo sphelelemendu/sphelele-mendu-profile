@@ -1,12 +1,9 @@
-import ManplayingChess from '../../assets/man-playing-chess1.jpg';
-import ServersSlide from '../../assets/servers-slide1.png';
-import PlayImage from '../../assets/play-concentration1.jpg'
+import ManplayingChess from '../../../Assets/man-playing-chess1.jpg';
+import ServersSlide from '../../../Assets/servers-slide1.png';
+import PlayImage from '../../../Assets/play-concentration1.jpg'
 
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
-import SlidingImagesStyle from './SlidingImages.css';
-
-
 class SlideShow extends Component {
     intervalId=0;
     state = {

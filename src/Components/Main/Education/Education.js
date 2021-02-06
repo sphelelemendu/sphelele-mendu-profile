@@ -1,18 +1,11 @@
 
 import 'bootstrap/dist/css/bootstrap.css';
-import bigImage from '../../assets/servers.png';
-import EducationStyle from './Education.css';
-import CardTemplate from './CardTemplate';
-import ReactDOM from 'react-dom';
+import bigImage from '../../../Assets/servers.png';
+import CardTemplate from '../Other/CardTemplate';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrophy, faUniversity, faSchool, faLaptopCode, faMale } from '@fortawesome/free-solid-svg-icons';
-import SlideShow from './SlidingImages';
-import cardTemplate from './CardTemplate';
-import skillsStyle from './SkillsListItems.css';
-import skillsListItem from './SkillsListItem';
-
+import SlideShow from '../Other/SlidingImages';
 const education = (props) => (
-
     <div className="container-fluid">
         <div className='row mb-4 ' >
             <div className="col-12 text-center">
@@ -408,7 +401,7 @@ const education = (props) => (
                                     <span className="activeDot"></span>
                                     <span className="activeDot"></span>
                                     <span className="activeDot"></span>
-                                    <span className="dot"></span>
+                                    <span className="activeDot"></span>
                                     <span className="dot"></span>
 
 

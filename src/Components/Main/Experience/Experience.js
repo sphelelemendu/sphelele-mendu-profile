@@ -1,12 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import books from '../../assets/books.jpeg';
-import experienceStyle from './Experience.css';
-import CardTemplate from './CardTemplate';
-import ReactDOM from 'react-dom';
+import books from '../../../Assets/books.jpeg';
+import CardTemplate from '../Other/CardTemplate';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrophy, faUniversity, faSchool, faLaptopCode, faMale, faUserNinja, faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import Carousel from './Carousel';
-import cardTemplate from './CardTemplate';
+import { faUniversity,faBriefcase } from '@fortawesome/free-solid-svg-icons';
 const experience = () => {
     return (
         <div className="container-fluid">
@@ -21,8 +17,6 @@ const experience = () => {
                             It also gave me an insight of working and engaging in a professional environment</p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
             <div className="row mb-4 ">
@@ -35,8 +29,6 @@ const experience = () => {
                             designing and building models and web services and consuming server side resources and developing the view.
                         </p>
                     </CardTemplate>
-               
-                    
                 </div>
             </div>
             <div className="row justify-content-end mb-4">

@@ -1,14 +1,12 @@
 import React from "react";
 import {Route} from 'react-router-dom'
-
 import 'bootstrap/dist/css/bootstrap.css';
-
-import Navigation from './Navigation';
-import Education from './Education';
-import Projects from './Projects';
-import Experience from './Experience';
-import Footer from './Footer';
-import Home from './Home';
+import Navigation from '../Components/Navigation/Navigation';
+import Education from '../Components/Main/Education/Education';
+import Projects from '../Components/Main/Projects/Projects';
+import Experience from '../Components/Main/Experience/Experience';
+import Footer from '../Components/Footer/Footer';
+import Home from '../Components/Main/Home/Home';
 
 const main =(props)=>(
    <div className="min-vw-100 min-vh-100">

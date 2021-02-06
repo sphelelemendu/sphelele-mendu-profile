@@ -1,16 +1,7 @@
 import React, { Component } from 'react';
-import NavItems from './NavItems';
-import bootstrap from 'bootstrap';
-import reactBootstrap from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import mypic from '../../assets/sphelelemendupic.jpg'
-import FooterStyle from './Footer.css';
-import HomeStyle from "./Home.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { FaFacebook, FaLinkedin } from 'react-icons/fa';
-import { faTrophy, faUniversity, faSchool, faLaptopCode, faMale, faRocket } from '@fortawesome/free-solid-svg-icons';
+import mypic from '../../../Assets/sphelelemendupic.jpg';
 class Home extends Component {
-
     render() {
         return (
             <div className="container-fluid">
@@ -19,7 +10,7 @@ class Home extends Component {
                     <div className="col-md-6 m-auto header">
                         <div className="row h-25" >
                             <div className="col-md-12">
-                                Software Engineer 
+                                Software Developer
                           </div>
                         </div>
                         <div className="row msg">

@@ -1,13 +1,7 @@
 import React ,{Component} from 'react';
 import NavItems from './NavItems';
-import bootstrap from 'bootstrap';
-import reactBootstrap from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import NavLinkStyle from './NavItems.css'
-
-
 class Navigation extends Component {
-
     render(){
         return(
             <nav className='navbar navbar-expand-sm  navbar-dark' style={{backgroundColor:"black"}}>
@@ -18,7 +12,6 @@ class Navigation extends Component {
                 <div  className='collapse  navbar-collapse' id="navId">
                 <NavItems/>
                 </div>
-                
             </nav>
         )
     }

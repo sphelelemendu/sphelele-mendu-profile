@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
-import NavItems from './NavItems';
-import bootstrap from 'bootstrap';
-import reactBootstrap from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import FooterStyle from './Footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {FaFacebook, FaLinkedin} from 'react-icons/fa';
-import { faTrophy, faUniversity, faSchool, faLaptopCode, faMale, faRocket } from '@fortawesome/free-solid-svg-icons';
 class Footer extends Component {
     render(  ) {
         console.log(FaLinkedin);

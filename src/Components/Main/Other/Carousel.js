@@ -1,9 +1,8 @@
-import bootstrap from 'bootstrap';
-import reactBootstrap from 'react-bootstrap';
+
 import 'bootstrap/dist/css/bootstrap.css';
-import LoginImage from '../../assets/loginUI.png';
-import HomePage from '../../assets/homePage.png';
-import MenuImage from '../../assets/menuUI.png'
+import LoginImage from '../../../Assets/loginUI.png';
+import HomePage from '../../../Assets/homePage.png';
+import MenuImage from '../../../Assets/menuUI.png'
 const carousel = () => {
     return (
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">

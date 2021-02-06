@@ -1,12 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import bigImage from '../../assets/servers.png';
-import EducationStyle from './Education.css';
-import CardTemplate from './CardTemplate';
-import ReactDOM from 'react-dom';
+import CardTemplate from '../Other/CardTemplate';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrophy, faUniversity, faSchool, faLaptopCode, faMale,faUserNinja} from '@fortawesome/free-solid-svg-icons';
-import Carousel from './Carousel';
-import cardTemplate from './CardTemplate';
+import { faUserNinja} from '@fortawesome/free-solid-svg-icons';
+import Carousel from '../Other/Carousel';
 const project = ()=>{
     return(
         <div className="container-fluid">
