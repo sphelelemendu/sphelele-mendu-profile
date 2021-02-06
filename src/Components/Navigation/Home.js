@@ -19,7 +19,7 @@ class Home extends Component {
                     <div className="col-md-6 m-auto header">
                         <div className="row h-25" >
                             <div className="col-md-12">
-                                Software Developer 
+                                Software Engineer 
                           </div>
                         </div>
                         <div className="row msg">
