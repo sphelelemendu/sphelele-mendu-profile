@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import  '../../../CSS/Footer.css';
+import "../../../CSS/Home.css"
 import mypic from '../../../Assets/sphelelemendupic.jpg';
 class Home extends Component {
     render() {
         return (
             <div className="container-fluid">
-
                 <div className="row text-center">
                     <div className="col-md-6 m-auto header">
                         <div className="row h-25" >

@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import books from '../../../Assets/books.jpeg';
 import CardTemplate from '../Other/CardTemplate';
+import '../../../CSS/Experience.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUniversity,faBriefcase } from '@fortawesome/free-solid-svg-icons';
 const experience = () => {

@@ -2,6 +2,8 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import bigImage from '../../../Assets/servers.png';
 import CardTemplate from '../Other/CardTemplate';
+import '../../../CSS/Education.css';
+import '../../../CSS/SkillsListItems.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrophy, faUniversity, faSchool, faLaptopCode, faMale } from '@fortawesome/free-solid-svg-icons';
 import SlideShow from '../Other/SlidingImages';

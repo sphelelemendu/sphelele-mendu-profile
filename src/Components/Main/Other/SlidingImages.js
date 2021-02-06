@@ -1,7 +1,7 @@
 import ManplayingChess from '../../../Assets/man-playing-chess1.jpg';
 import ServersSlide from '../../../Assets/servers-slide1.png';
 import PlayImage from '../../../Assets/play-concentration1.jpg'
-
+import '../../../CSS/SlidingImages.css';
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 class SlideShow extends Component {
